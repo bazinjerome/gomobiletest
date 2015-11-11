@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307CD6D1BF34D92008F39BB /* Gomobiletest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6307CD6C1BF34D92008F39BB /* Gomobiletest.framework */; };
 		63B5CF9C1BEF8A340081687B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5CF9B1BEF8A340081687B /* main.m */; };
 		63B5CF9F1BEF8A340081687B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5CF9E1BEF8A340081687B /* AppDelegate.m */; };
 		63B5CFA21BEF8A340081687B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5CFA11BEF8A340081687B /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		63B5CFAA1BEF8A340081687B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B5CFA81BEF8A340081687B /* LaunchScreen.storyboard */; };
 		63B5CFB51BEF8A340081687B /* MyAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5CFB41BEF8A340081687B /* MyAuthTests.m */; };
 		63B5CFC01BEF8A340081687B /* MyAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5CFBF1BEF8A340081687B /* MyAuthUITests.m */; };
+		63B5CFFF1BEF91D90081687B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5CFFE1BEF91D90081687B /* AVFoundation.framework */; };
+		63B5D0011BEF91E20081687B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5D0001BEF91E20081687B /* CoreMedia.framework */; };
+		63B5D0031BEF91EA0081687B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5D0021BEF91EA0081687B /* CoreVideo.framework */; };
+		63B5D0051BEF91F80081687B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5D0041BEF91F80081687B /* QuartzCore.framework */; };
+		63B5D0071BEF92040081687B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5D0061BEF92040081687B /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6307CD6C1BF34D92008F39BB /* Gomobiletest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gomobiletest.framework; sourceTree = "<group>"; };
 		63B5CF971BEF8A340081687B /* MyAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B5CF9B1BEF8A340081687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63B5CF9D1BEF8A340081687B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		63B5CFBB1BEF8A340081687B /* MyAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B5CFBF1BEF8A340081687B /* MyAuthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAuthUITests.m; sourceTree = "<group>"; };
 		63B5CFC11BEF8A340081687B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B5CFFE1BEF91D90081687B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63B5D0001BEF91E20081687B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		63B5D0021BEF91EA0081687B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		63B5D0041BEF91F80081687B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63B5D0061BEF92040081687B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B5D0071BEF92040081687B /* libiconv.tbd in Frameworks */,
+				63B5D0051BEF91F80081687B /* QuartzCore.framework in Frameworks */,
+				63B5D0031BEF91EA0081687B /* CoreVideo.framework in Frameworks */,
+				63B5D0011BEF91E20081687B /* CoreMedia.framework in Frameworks */,
+				6307CD6D1BF34D92008F39BB /* Gomobiletest.framework in Frameworks */,
+				63B5CFFF1BEF91D90081687B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,12 @@
 		63B5CF8E1BEF8A340081687B = {
 			isa = PBXGroup;
 			children = (
+				6307CD6C1BF34D92008F39BB /* Gomobiletest.framework */,
+				63B5D0061BEF92040081687B /* libiconv.tbd */,
+				63B5D0041BEF91F80081687B /* QuartzCore.framework */,
+				63B5D0021BEF91EA0081687B /* CoreVideo.framework */,
+				63B5D0001BEF91E20081687B /* CoreMedia.framework */,
+				63B5CFFE1BEF91D90081687B /* AVFoundation.framework */,
 				63B5CF991BEF8A340081687B /* MyAuth */,
 				63B5CFB31BEF8A340081687B /* MyAuthTests */,
 				63B5CFBE1BEF8A340081687B /* MyAuthUITests */,
@@ -207,6 +231,7 @@
 				TargetAttributes = {
 					63B5CF961BEF8A340081687B = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4FFA97RVQP;
 					};
 					63B5CFAF1BEF8A340081687B = {
 						CreatedOnToolsVersion = 7.1;
@@ -347,6 +372,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -391,6 +417,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -413,10 +440,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyAuth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +461,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyAuth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -435,8 +482,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = MyAuthTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/ZBarSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAuth.app/MyAuth";
@@ -447,8 +502,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = MyAuthTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/ZBarSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAuth.app/MyAuth";
@@ -458,8 +521,16 @@
 		63B5CFCB1BEF8A340081687B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = MyAuthUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/ZBarSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuthUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = MyAuth;
@@ -470,8 +541,16 @@
 		63B5CFCC1BEF8A340081687B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = MyAuthUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/ZBarSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pouet.MyAuthUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = MyAuth;
@@ -498,6 +577,7 @@
 				63B5CFC61BEF8A340081687B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B5CFC71BEF8A340081687B /* Build configuration list for PBXNativeTarget "MyAuthTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +586,7 @@
 				63B5CFC91BEF8A340081687B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B5CFCA1BEF8A340081687B /* Build configuration list for PBXNativeTarget "MyAuthUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +595,7 @@
 				63B5CFCC1BEF8A340081687B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

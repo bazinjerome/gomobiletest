@@ -1,0 +1,4 @@
+framework module "Gomobiletest" {
+    header "Gomobiletest.h"
+    export *
+}
